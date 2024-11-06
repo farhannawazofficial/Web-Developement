@@ -1,0 +1,199 @@
+# HTML Cheatsheet
+
+## Basic Structure
+
+html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Content goes here -->
+  </body>
+</html>
+
+
+## Common Tags
+
+### Headings
+
+html
+<h1>This is a Heading 1</h1>
+<h2>This is a Heading 2</h2>
+<h3>This is a Heading 3</h3>
+<h4>This is a Heading 4</h4>
+<h5>This is a Heading 5</h5>
+<h6>This is a Heading 6</h6>
+
+
+### Paragraphs
+
+html
+<p>This is a paragraph.</p>
+
+
+### Links
+
+html
+<a href="https://example.com">This is a link</a>
+
+
+### Images
+
+html
+<img src="image.jpg" alt="Description of image">
+
+
+### Lists
+
+#### Ordered List
+
+html
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+
+
+#### Unordered List
+
+html
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+
+### Forms
+
+html
+<form action="/submit" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  
+  <input type="submit" value="Submit">
+</form>
+
+
+## Text Formatting
+
+### Bold
+
+html
+<strong>This text is bold</strong>
+
+
+### Italic
+
+html
+<em>This text is italic</em>
+
+
+### Underline
+
+html
+<u>This text is underlined</u>
+
+
+### Strikethrough
+
+html
+<s>This text is strikethrough</s>
+
+
+## Tables
+
+html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Row 1, Cell 1</td>
+    <td>Row 1, Cell 2</td>
+  </tr>
+  <tr>
+    <td>Row 2, Cell 1</td>
+    <td>Row 2, Cell 2</td>
+  </tr>
+</table>
+
+
+## Media
+
+### Audio
+
+html
+<audio controls>
+  <source src="audiofile.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+### Video
+
+html
+<video width="320" height="240" controls>
+  <source src="videofile.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+## Div and Span
+
+### Div
+
+html
+<div>This is a block-level element</div>
+
+
+### Span
+
+html
+<span>This is an inline element</span>
+
+
+## Semantic HTML
+
+### Article
+
+html
+<article>
+  <h2>Article Title</h2>
+  <p>Content of the article goes here.</p>
+</article>
+
+
+### Section
+
+html
+<section>
+  <h2>Section Title</h2>
+  <p>Content of the section goes here.</p>
+</section>
+
+
+### Header, Footer, Nav
+
+html
+<header>
+  <h1>Site Title</h1>
+</header>
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+</nav>
+
+<footer>
+  <p>Footer content</p>
+</footer>
