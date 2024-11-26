@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+  }
+  
+  #about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  #profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
