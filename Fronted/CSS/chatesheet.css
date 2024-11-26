@@ -25,5 +25,88 @@ background-size: cover; --------------------------------/* Adjusts image size */
 
 /*------------------------------ Pseudo-Classes------------------ */
 
-a:hover { color: orange; } /* Changes color when hovered */
-button:focus { outline: none; } /* Removes outline when focused */
+a:hover { color: orange; } ------------------/* Changes color when hovered */
+button:focus { outline: none; } ------------------------ /* Removes outline when focused */
+
+
+/* ----------------------Positioning---------------------- */
+Static (default):
+position: static;
+
+/* ----------------------1-Relative:------------------------ */
+position: relative;
+top: 10px; /* Moves element down */
+
+/* ----------------2-Absolute------------------: */
+position: absolute;
+top: 0; /* Positions relative to the nearest ancestor */
+
+/* ---------------------3-Fixed:----------------- */
+position: fixed;
+bottom: 10px; /* Stays fixed in viewport */
+
+
+/* ------------------------------------Flexbox (Align Items Easily)====================== */
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+}
+
+/* -----------------Responsive Design------------------ */
+/* -Media Queries:-*/
+
+@media (max-width: 768px) {
+  body { background-color: lightgrey; }
+}
+/* ------------------Percentage Units:--------------- */
+
+width: 50%; /* Adjusts relative to parent */
+
+/* -----------------CSS Grid (2D Layout)------------------- */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  grid-gap: 10px; /* Space between items */
+}
+
+
+/* ----------------------Tips for Beginners------------------ */
+/* Use a CSS reset to normalize browser styles.
+Keep styles organized with comments: */
+
+/* Header Styles */
+header { background: black; color: white; }
+
+/* Test styles in the browser frequently. */
+
+
+/* -------------------------Example Project----------------------------- */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Cheatsheet Example</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to CSS!</h1>
+  </header>
+  <main class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+  </main>
+</body>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  header { background: #333; color: white; text-align: center; padding: 20px; }
+  .container { display: flex; gap: 10px; padding: 20px; }
+  .box { background: lightblue; padding: 20px; flex: 1; text-align: center; }
+</style>
+</html>
+
