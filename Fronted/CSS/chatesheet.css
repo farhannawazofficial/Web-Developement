@@ -1,0 +1,29 @@
+/* ------------------Common Properties------------------------ */
+/* Text Styling  */
+
+/* color: red; -------------------- Changes text color
+font-size: 20px; ----------------- Adjusts font size
+font-family: Arial, sans-serif; ------------- Sets font style
+text-align: center; --------------- Aligns text
+line-height: 1.5; ------------ Adjusts line spacing */
+
+/* ----------------Box Model------------------- */
+
+width: 200px; ------------------- /* Sets width */
+height: 100px; -------------- /* Sets height */
+margin: 10px;  ----------------- /* Space outside the element */
+padding: 20px; ------------------ /* Space inside the element */
+border: 2px solid black; --------------------- /* Border styling */
+
+
+/* ----------------------Background------------------- */
+
+background-color: lightblue; ------------------------/* Sets background color */
+background-image: url('image.jpg'); -------------------/* Sets background image */
+background-size: cover; --------------------------------/* Adjusts image size */
+
+
+/*------------------------------ Pseudo-Classes------------------ */
+
+a:hover { color: orange; } /* Changes color when hovered */
+button:focus { outline: none; } /* Removes outline when focused */
