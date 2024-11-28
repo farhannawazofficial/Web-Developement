@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">TravelMate</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find Your Perfect Trip</h1>
+      <p>Search Flights, Hotels, and More</p>
+    </div>
+  </section>
+
+  <!-- Search Form Section -->
+  <section class="search-form">
+    <div class="container">
+      <div class="search-options">
+        <!-- Flight Search -->
+        <div class="search-box">
+          <h3>Book a Flight</h3>
+          <form action="#">
+            <input type="text" placeholder="From" required>
+            <input type="text" placeholder="To" required>
+            <input type="date" placeholder="Departure Date" required>
+            <input type="date" placeholder="Return Date" required>
+            <button type="submit">Search Flights</button>
+          </form>
+        </div>
+
+        <!-- Hotel Search -->
+        <div class="search-box">
+          <h3>Book a Hotel</h3>
+          <form action="#">
+            <input type="text" placeholder="Location" required>
+            <input type="date" placeholder="Check-in Date" required>
+            <input type="date" placeholder="Check-out Date" required>
+            <input type="number" placeholder="Guests" required>
+            <button type="submit">Search Hotels</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Hotels Section -->
+  <section class="featured-hotels">
+    <div class="container">
+      <h2>Featured Hotels</h2>
+      <div class="hotel-cards">
+        <div class="hotel-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbnvnEWvfXU3C1J8xEJff7tEe1K-RMQGgSKw&s" alt="Hotel 1">
+          <h3>Luxury Beach Resort</h3>
+          <p>Starting at $199 per night</p>
+          <button>Book Now</button>
+        </div>
+        <div class="hotel-card">
+          <img src="https://mountain-retreat.hotel-yangshuo.com/data/Pics/OriginalPhoto/11690/1169082/1169082841/mountain-retreat-hotel-yangshuo-pic-27.JPEG" alt="Hotel 2">
+          <h3>Mountain Retreat</h3>
+          <p>Starting at $150 per night</p>
+          <button>Book Now</button>
+        </div>
+        <div class="hotel-card">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/2d/55/55/ed/exterior.jpg" alt="Hotel 3">
+          <h3>City Center Hotel</h3>
+          <p>Starting at $120 per night</p>
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 TravelMate. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
