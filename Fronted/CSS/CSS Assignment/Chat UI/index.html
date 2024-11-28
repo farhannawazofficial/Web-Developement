@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat UI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>Chat Room</h1>
+    </header>
+
+    <main class="chat-body">
+      <!-- Received Message -->
+      <div class="message received">
+        <div class="bubble">
+          <p>Hello! How are you?</p>
+          <span class="time">10:05 AM</span>
+        </div>
+      </div>
+
+      <!-- Sent Message -->
+      <div class="message sent">
+        <div class="bubble">
+          <p>Hi! I'm doing great, thanks. What about you?</p>
+          <span class="time">10:06 AM</span>
+        </div>
+      </div>
+
+      <!-- Typing Indicator -->
+      <div class="typing-indicator">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </main>
+
+    <footer class="chat-footer">
+      <input type="text" placeholder="Type a message..." />
+      <button>Send</button>
+    </footer>
+  </div>
+</body>
+</html>
