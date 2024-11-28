@@ -49,8 +49,8 @@
   
   /* Hero Section */
   .hero {
-    background: url("https://via.placeholder.com/1920x600") no-repeat center center/cover;
-    color: white;
+    background: url("https://lh3.googleusercontent.com/proxy/KS0iR5QNgNjy86mRfQH46JTEJ0zQtVs38dv_G3pUbwgPYoB-7BQPOyCSOEu_hXFnXGVe5lvmDdlXJN8k7ZkwAQ3_zZ7uHkARqWCVqsqLZRNTzp_fyeL3jMpP") no-repeat center center/cover;
+    color: rgb(0, 0, 0);
     padding: 80px 0;
     text-align: center;
   }
