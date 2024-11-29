@@ -21,7 +21,7 @@ To get started with this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/farhannawazofficial/your-repository-name.git
+   git clone https://github.com/farhannawazofficial/Web-Developement.git
 
 
 ### Explanation:
