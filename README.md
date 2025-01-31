@@ -1,4 +1,4 @@
-# Web Development Project....
+# Web Development Project
 
 Welcome to the Web Development project! This project is focused on creating responsive and user-friendly websites. It involves various web technologies including HTML, CSS, JavaScript, and more.
 
